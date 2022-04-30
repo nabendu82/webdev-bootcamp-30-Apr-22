@@ -1,0 +1,53 @@
+.position-box{
+    width: 1000px;
+    height: 500px;
+    border: 10px solid red;
+    position: relative;
+    background-image: url(./images/desktop.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+.position-box h1{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    
+}
+
+.position-box h2{
+    position: absolute;
+    right: 100px;
+    bottom: 150px;
+}
+
+.fixed-button{
+    position: fixed;
+    top: 500px;
+    left: 300px;
+}
+
+/* .my-list li:nth-child(7){
+    background-color: red;
+
+}
+
+.my-list li:nth-child(5){
+    background-color: yellowgreen;
+
+}
+
+.my-list li:first-child{
+    background-color: gray;
+
+} */
+
+.my-list li:nth-child(even) {
+    background-color: red;
+
+}
+
+.my-list li:nth-child(odd) {
+    background-color: green;
+
+}
